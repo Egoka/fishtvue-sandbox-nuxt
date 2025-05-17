@@ -266,5 +266,6 @@ const {scrollToPosition} = useScrollTo()
         </DocComponent>
       </div>
     </div>
+    doc
   </div>
 </template>
