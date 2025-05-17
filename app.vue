@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 const classes = ref<string[]>([
   "dark:text-neutral-100 text-neutral-900",
   "bg-neutral-100 dark:bg-neutral-900",
@@ -15,5 +16,6 @@ const classes = ref<string[]>([
       <NuxtPage />
     </NuxtLayout>
   </AppMain>
+  <SpeedInsights />
   </Body>
 </template>
