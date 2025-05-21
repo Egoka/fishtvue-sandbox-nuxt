@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMetaFromDoc({
+  title: "Home",
+  description: "Home page",
+})
 const {scrollToPosition} = useScrollTo()
 </script>
 <template>
@@ -266,6 +270,5 @@ const {scrollToPosition} = useScrollTo()
         </DocComponent>
       </div>
     </div>
-    demo
   </div>
 </template>
